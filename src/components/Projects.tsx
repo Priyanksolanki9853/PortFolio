@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef, useState, useEffect } from 'react';
-import { ExternalLink, Github, Gamepad2, Brain, Car, Scale, Crosshair, PersonStanding, Rocket, Target, Bird, Flag, Globe } from 'lucide-react';
+import { ExternalLink, Github, Gamepad2, Brain, Car, Scale, Crosshair, PersonStanding, Rocket, Target, Bird, Flag, Globe, Ghost } from 'lucide-react';
 import { Tilt } from 'react-tilt'; // <--- NEW IMPORT
 
 const projectCategories = {
@@ -53,7 +53,7 @@ const projectCategories = {
         image: '/Obstacle_dodge.png',
         tech: ['Unity', 'C#', 'Arcade', 'Physics'],
         github: 'https://github.com/Priyanksolanki9853/Obstacle_Dodge',
-      
+        demo: 'https://github.com/Priyanksolanki9853/Obstacle_Dodge',
         icon: Target,
       },
       {
@@ -62,8 +62,18 @@ const projectCategories = {
         image: '/Mini_Golf.png',
         tech: ['Unity', 'C#', 'Physics', 'Casual Game'],
         github: 'https://github.com/Priyanksolanki9853/MINI_GOLF',
-      
+        demo: 'https://github.com/Priyanksolanki9853/MINI_GOLF',
         icon: Flag,
+      },
+
+      {
+        title: 'Monster Chase',
+        description: 'An intense 2D survival game built in Unity. Navigate through waves of enemies, dodge monster attacks, and survive as long as possible using smooth movement mechanics.',
+        image: '/Monster_Chase.png', // Make sure to add this image to your public folder!
+        tech: ['Unity', 'C#', '2D Physics', 'Animation'],
+        github: 'https://priyank-solanki.itch.io/monster-chase', // Check if this link is correct
+        demo: 'https://priyank-solanki.itch.io/monster-chase',
+        icon: Ghost,
       },
       {
         title: 'Flappy Bird Clone',
