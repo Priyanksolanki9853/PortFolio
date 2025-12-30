@@ -94,6 +94,7 @@ const projectCategories = {
         title: 'SafeRoute AI',
         description: 'An AI-powered navigation system that analyzes road geometry, weather, and infrastructure to calculate the safest path, not just the fastest one.',
         image: '/Safe_route.png',
+        tech: ['Python', 'Scikit-Learn', 'Pandas', 'Flask'],
         github: 'https://github.com/Priyanksolanki9853/SafeRoute-AI',
         demo: 'https://accident-route-advisor.onrender.com/',
         icon: Car,
