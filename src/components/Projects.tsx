@@ -109,7 +109,7 @@ const projectCategories = {
       {
         title: 'Gaming Portal',
         description: 'An immersive, cyberpunk-themed game developer portfolio. Features a single-page architecture (SPA), global leaderboard powered by Supabase, embedded HTML5 arcade games, and interactive 3D UI effects.',
-        image: '/ GP.png',
+        image: '/GP.png',
         tech: ['JavaScript', 'HTML5', 'CSS3', 'Supabase'],
         github: 'https://github.com/Priyanksolanki9853/Gaming_Portal',
         demo: 'https://priyanksolanki9853.github.io/Gaming_Portal/',
