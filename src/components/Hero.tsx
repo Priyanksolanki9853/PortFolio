@@ -78,8 +78,9 @@ export default function Hero() {
             transition={{ delay: 0.8 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 font-body leading-relaxed"
           >
-            CS Student from Bhopal, India. Passionate about building immersive worlds, 
-            intelligent systems, and solving complex problems through code.
+            I bridge the gap between Web, Games, and AI.
+            
+            Whether I’m architecting full-stack solutions, designing 3D gameplay, or training ML models, my goal is to build intelligent, interactive software that pushes boundaries.
           </motion.p>
 
           <motion.div

@@ -144,17 +144,17 @@ export default function Skills() {
         >
           <div className="inline-flex gap-8 glass-card px-8 py-4 rounded-2xl">
             <div className="text-center">
-              <p className="text-3xl font-display font-bold text-primary">6+</p>
+              <p className="text-3xl font-display font-bold text-primary">9+</p>
               <p className="text-muted-foreground font-body text-sm">Projects</p>
             </div>
             <div className="w-px bg-border" />
             <div className="text-center">
-              <p className="text-3xl font-display font-bold text-secondary">4+</p>
+              <p className="text-3xl font-display font-bold text-secondary">6+</p>
               <p className="text-muted-foreground font-body text-sm">Games Published</p>
             </div>
             <div className="w-px bg-border" />
             <div className="text-center">
-              <p className="text-3xl font-display font-bold text-accent">10+</p>
+              <p className="text-3xl font-display font-bold text-accent">25+</p>
               <p className="text-muted-foreground font-body text-sm">Technologies</p>
             </div>
           </div>
