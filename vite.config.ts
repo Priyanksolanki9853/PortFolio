@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // Replace '3d-interactive-portfolio' with your exact GitHub repository name
-  base: "/3d-interactive-portfolio/", 
+  base: "/", 
   server: {
     host: "::",
     port: 8080,
